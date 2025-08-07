@@ -17,7 +17,7 @@ public class NoiseListener : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
     }
-    /// Метод викликається при надходженні шуму
+    
     /// <param name="sourcePos">Позиція джерела шуму</param>
     /// <param name="volume">Гучність в точці слухача (0-1)</param>
     public void OnHeardNoise(Vector3 sourcePos, float volume)
